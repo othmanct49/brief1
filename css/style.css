@@ -18,7 +18,7 @@
   --couleur-fond: #ffffff;
   --couleur-fond-clair: #f4f6fa;
   --couleur-texte: #1c2333;
-  --couleur-texte-doux: #5b6478;
+  --couleur-texte-doux: #4f0c0c;
   --couleur-principale: #2f5bea;
   --couleur-bordure: #dde3ec;
 
@@ -40,7 +40,7 @@ body {
   font-family: var(--police);
   font-size: 17px;
   line-height: 1.6;
-  color: var(--couleur-texte);
+  color: #2f1203;
   background-color: var(--couleur-fond);
 }
 
@@ -81,7 +81,7 @@ a {
   font-size: 16px;
   font-weight: 600;
   color: #ffffff;
-  background-color: var(--couleur-principale);
+  background-color: #E07A5F;
   cursor: pointer;
 }
 
@@ -105,6 +105,7 @@ a {
 .logo {
   font-size: 20px;
   font-weight: 700;
+  color : #E07A5F
 }
 
 .menu {
@@ -121,6 +122,9 @@ a {
 .presentation {
   padding: 96px 0;
 }
+.menu .select {
+    color: #E07A5F; 
+}
 
 .presentation__contenu {
   display: flex;
@@ -136,7 +140,7 @@ a {
 .surtitre {
   margin-bottom: 8px;
   font-weight: 600;
-  color: var(--couleur-principale);
+  color: #E07A5F;
 }
 
 .presentation h1 {
@@ -166,7 +170,7 @@ a {
 }
 
 .section--claire {
-  background-color: var(--couleur-fond-clair);
+  background-color: #fff5ef;
 }
 
 .section h2 {
