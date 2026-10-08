@@ -87,7 +87,7 @@ a {
 
 .lien {
   font-weight: 600;
-  color: var(--couleur-principale);
+  color: #E07A5F;
 }
 
 /* ---------- 3. En-tête ---------- */
@@ -191,7 +191,6 @@ a {
 
 .competences li {
   padding: 10px 22px;
-  border: 1px solid var(--couleur-bordure);
   border-radius: var(--rayon);
   font-weight: 600;
   background-color: var(--couleur-fond);
@@ -211,7 +210,7 @@ a {
   gap: 32px;
   margin-bottom: 24px;
   padding: 24px;
-  border: 1px solid var(--couleur-bordure);
+  /* border: 1px solid var(--couleur-bordure); */
   border-radius: var(--rayon);
 }
 
@@ -229,17 +228,28 @@ a {
 .projet p {
   color: var(--couleur-texte-doux);
 }
+.projet__texte {
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;.
+
+
+}
 
 .technologies {
   display: flex;
+  align-items: flex-start;
   gap: 8px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  flex-grow: 1 ;
+  margin-top: auto ;
+
 }
 
 .technologies li {
   padding: 4px 12px;
   border-radius: 6px;
+  margin-top: auto ;
   font-size: 14px;
   background-color: var(--couleur-fond-clair);
 }
@@ -261,7 +271,7 @@ a {
   width: 100%;
   margin-bottom: 20px;
   padding: 12px 14px;
-  border: 1px solid var(--couleur-bordure);
+  border: 0px solid;
   border-radius: var(--rayon);
   font-family: var(--police);
   font-size: 16px;
