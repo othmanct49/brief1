@@ -1,6 +1,6 @@
 # Portfolio — modèle de départ
 
-Site d'une seule page en HTML5 et CSS3, point de départ du Brief 1 (Sprint 1).
+Site d'une 3 page en HTML5 et CSS3, point de départ du Brief 1 (Sprint 1).
 
 ## Contenu
 
