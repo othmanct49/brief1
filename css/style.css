@@ -199,8 +199,14 @@ a {
 
 /* ---------- 7. Projets ---------- */
 /* Les projets sont empilés les uns sous les autres. */
+.projets {
+ display: grid;
+ grid-template-columns: 50% 50% ;
+ gap: 32px;
+}
 .projet {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 32px;
   margin-bottom: 24px;
