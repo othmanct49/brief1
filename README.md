@@ -1,17 +1,15 @@
-# Portfolio — modèle de départ
+text
+├── index.html          # Page d'accueil / Présentation
+├── projets.html        # Page des projets
+├── a-propos.html       # Page À propos (parcours, compétences, objectifs)
+├── contact.html        # Page de contact
+├── css/
+│   └── style.css       # Feuille de style globale unique
+├── images/             # Logos, captures d'écrans et médias
+└── README.md           # Documentation du dépôt
+figma lein :
 
-Site d'une 3 page en HTML5 et CSS3, point de départ du Brief 1 (Sprint 1).
+https://www.figma.com/design/tMnguZo9sY7oKtUgYpsOso/Untitled?node-id=0-1&t=Hkdm0rgeRAO2RCQP-1
 
-## Contenu
-
-- `index.html` : la page unique (présentation, compétences, projets, contact)
-- `css/style.css` : la feuille de style
-- `images/` : les images provisoires, à remplacer par les vôtres
-
-## Pour commencer
-
-1. Faites un fork de ce dépôt, puis clonez votre fork.
-2. Ouvrez `index.html` dans votre navigateur.
-3. Suivez les étapes du brief : modifier, séparer, manipuler, créer.
-
-Remplacez ce fichier par le README de votre propre portfolio.
+github :
+https://github.com/othmanct49/brief1.git
